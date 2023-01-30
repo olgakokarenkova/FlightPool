@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>FlightPool - авиакомпания</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link href="http://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+		<header class="header">
+			<img src="img/logo.png" alt="Logo" class="logo" height="90px" width="150px">
+			<h1>FlightPool</h1>
+			<div class="buttons">
+				<button class="button"><span class="button-text"><a href="#mainpart2">Контакты</a></span></button>
+				<button class="button"><span class="button-text"><a href="#mainpart">Акции</a></span></button>
+				<button class="button"><span class="button-text" id="cart-button" >Личный кабинет</span></button>
+			</div>
+		</header>
+	</div>
+	<main class="main">
+		<div class="container">
+			<section class="promo">
+				<div id="slider">
+					<!-- Кнопки переключения изображений -->
+					<input type="radio" name="slider" id="slide1" checked>
+					<input type="radio" name="slider" id="slide2">
+					<input type="radio" name="slider" id="slide3">
+					<input type="radio" name="slider" id="slide4">
+					<input type="radio" name="slider" id="slide5">
+					<!-- Блок слайдов -->
+					<div id="slides">
+						<!-- Слайд -->
+						<div class="inner">
+							<img src="img/img1.jpg" alt="">
+							<img src="img/img2.jpg" alt="">
+							<img src="img/img3.jpg" alt="">
+							<img src="img/img4.jpg" alt="">
+							<img src="img/img5.jpg" alt="">
+						</div>
+					</div>
+					<!-- Стрелки переключения-->
+					<div id="controls">
+						<label for="slide1"></label>
+						<label for="slide2"></label>
+						<label for="slide3"></label>
+						<label for="slide4"></label>
+						<label for="slide5"></label>
+					</div>
+				</div>
+				<!-- Кнопки переключения -->
+				<div id="active">
+					<label for="slide1"></label>
+					<label for="slide2"></label>
+					<label for="slide3"></label>
+					<label for="slide4"></label>
+					<label for="slide5"></label>
+				</div>   
+			</section>
+	<section class="stock">	
+		<div class="cards1">
+			<div class="card">
+				<img src="img/promotion1.jpg" alt="image" class="card-image">
+				<div class="card-text">
+					<div class="card-heading">
+						<h3 class="card-title">Возврат и обмен билетов</h3>						
+					</div>
+					<div class="card-info">						
+						<div class="section-text">Пандемия изменила планы многих путешественников, но мы знаем, что она не будет длиться вечно. Как только все это закончится, мы продолжим исследовать этот мир так, как мы привыкли. Специальные правила, разработанные для этой сложной ситуации, помогут вам отменить поездку или отложить</div>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<img src="img/promotion2.jpg" alt="image" class="card-image">
+				<div class="card-text">
+					<div class="card-heading">
+						<h3 class="card-title">Лучшие предложения</h3>
+					</div>
+					<div class="card-info">
+						<div class="section-text">Снова увидеть улицы, которые так много видели. Обнять своих близких и оглянуться назад, чтобы увидеть, через что вам пришлось пройти. И думать о новых мечтах, которые будут такими особенными!</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="cards2">
+			<div class="card">
+				<img src="img/promotion3.jpg" alt="image" class="card-image">
+				<div class="card-text">
+					<div class="card-heading">
+						<h3 class="card-title">Видеться чаще</h3>
+					</div>
+					<div class="card-info">
+						<div class="section-text">С начала января мы расширяем географию полетов по России, чтобы вы могли чаще видитесь с близкими. Выбирайте нашу компанию, чтобы лететь туда, где вас всегда ждут.</div>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<img src="img/promotion4.jpg" alt="image" class="card-image">
+				<div class="card-text">
+					<div class="card-heading">
+						<h3 class="card-title">Все снова включено</h3>
+					</div>
+					<div class="card-info">
+						<div class="section-text">С 10 августа возобновим полеты в Турцию. Рейсы из Москвы в Анталию будут выполняться дважды в день ежедневно, а рейсы по маршруту Москва-Даламан будут выполняться от трех до семи раз в неделю.</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section-heading" id='mainpart'>
+			<div class="text">
+				<h2 class="section-title">Акции и предложения</h2>
+				<div class="section-text">Мы сближаем города, вы - живете там, где хотите — <cite>FlightPool</cite></div>
+				<div class="card2">
+					<h3 class="card-title">Лучшие акции!</h3>
+					<div class="section-text">Хотите знать наши самые лучшие и выгодные предложения, оформите подписку на закрытые акции! Для это вам нужно ввести свою почту и нажать на кнопку "Подписаться".</div> 
+					<div class="button2">
+						<p class="text">Email: <input type="email" name="login" placeholder="Введите ваш email" class="button"></p>
+						<p class="text" align="center"><input type="submit" value="Подписаться" class="button" align="center"></p>
+					</div>
+				</div>	
+			</div>			
+		</div>
+	</section>
+		</div>
+	</main>
+	<footer class="footer">
+		<div class="container">
+			<div class="footer-block" id='mainpart2'>
+				<img src="img/logo.png" alt="logo" class="logo footer-logo" height="90px" width="150px">
+				<nav class="footer-nav">
+					<a href="#" class="footer-link">По вопросам звоните: + 8 (800) 100-10-10</a>					
+				</nav>
+				<div class="social-links">
+					<a href="#" class="social-link"><img src="img/Group 1.png" alt=""></a>
+					<a href="#" class="social-link"><img src="img/Group 2.png" alt=""></a>
+					<a href="#" class="social-link"><img src="img/Group 3.png" alt=""></a>
+				</div>
+			</div>	
+		</div>
+	</footer>
+
+	<div class="modal">
+		<div class="modal-dialog">
+			<div class="modal-header">
+				<h3 class="modal-title">Войти в личный кабинет</h3>
+				<button class="close">&times;</button>
+			</div>
+			<div class="modal-body">
+				<div class="login_buttons">
+					<span class="login-name">Логин: <input type="number" name="number" placeholder="Введите номер " class="button" ></span>
+					<span class="login-name">Пароль: <input type="password" name="password" placeholder="Введите пароль" class="button"></span>
+				</div>
+				<div class="login_buttons">
+					<a href="index4.html"><input type="submit" value="Войти" class="button" align="center" id=""></a>
+					<a href="index5.html"><input type="submit" value="Войти как администратор" class="button" align="center" id="cart-button"></a>
+				</div>
+			</div>
+			<div class="modal-body">
+				<div class="login_buttons">
+					<span class="login-name">Вы еще не зарегистрированны?</span>
+					<a href="index3.html"><input type="submit" value="Зарегистрироваться" class="button" align="center" ></a>
+				</div>
+			</div>
+			
+		</div>		
+	</div>
+	<script src="js/main.js"></script>
+</body>
+</html>
